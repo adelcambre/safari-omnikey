@@ -12,30 +12,6 @@ body{
     box-sizing: border-box;
 }
 
-.toolbar{
-    position: absolute;
-    right: 10px;
-    top: 8px;
-}
-
-.toolbar .btn {
-    float: right;
-    margin-left: 4px;
-}
-
-.btn {
-    background: #777;
-    background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
-    border: 1px solid #6B6B6B;
-    box-shadow: 0 1px 2px rgba(255,255,255,0.5);
-    padding: 4px 6px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 12px;
-    text-shadow: 0 -1px 0 rgba(0,0,0,0.75);
-    border-radius: 3px;
-}
-
 h1{
     font-weight: normal;
     font-size: 20px;
@@ -67,42 +43,6 @@ table th{
     position: relative;
 }
 
-td input{
-    display: none;
-    width: 80%;
-}
-td.editing input{
-    display: inline;
-}
-td.editing .label{
-    display: none;
-}
-
-td .remove{
-    position: absolute;
-    right: 4px;
-    top: 2px;
-    /*text-indent: -1000px;*/
-    overflow: hidden;
-    height: 14px;
-    width: 14px;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 14px;
-    font-family: monospace;
-    background: #bbb;
-    opacity: 0.8;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.2);
-    -webkit-transform: rotate(45deg);
-}
-td .remove:hover{
-    opacity: 1;
-}
-
 tbody tr:nth-child(even){
     background-color: #F3F6FA;
 }
@@ -130,23 +70,6 @@ table td.url{
     width: 70%;
 }
 
-#import-export {
-    position: relative;
-}
-#import-export textarea {
-    resize: none;
-    height: 150px;
-    font-family: monospace;
-    font-size: 10px;
-    box-sizing: border-box;
-    width: 100%;
-}
-#import-export .import-data {
-    position: absolute;
-    bottom: 6px;
-    right: 4px;
-}
-
 p.footer{
     font-size: 10px;
     text-shadow: 0 1px 0 #fff;
@@ -164,4 +87,8 @@ p.footer code{
 
 p.footer select{
     width: 80px;
+}
+
+.error {
+  color: red;
 }
