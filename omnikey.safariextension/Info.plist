@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Mario Estrada</string>
+	<string>Andy Delcambre</string>
 	<key>Builder Version</key>
 	<string>10600.1.25</string>
 	<key>CFBundleDisplayName</key>
 	<string>Omnikey</string>
 	<key>CFBundleIdentifier</key>
-	<string>ec.mario.omnikey</string>
+	<string>com.delcambre.omnikey</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.1</string>
+	<string>2.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.1</string>
+	<string>2.0.0</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Database Quota</key>
@@ -72,9 +72,7 @@
 			<string>None</string>
 		</dict>
 	</dict>
-	<key>Update Manifest URL</key>
-	<string>http://marioestrada.github.com/safari-omnikey/update.plist</string>
 	<key>Website</key>
-	<string>http://marioestrada.github.com/safari-omnikey/</string>
+	<string>https://github.com/adelcambre/safari-omnikey</string>
 </dict>
 </plist>
